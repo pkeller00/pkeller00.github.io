@@ -1,0 +1,269 @@
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+h1{
+  font-size: 32px;
+}
+
+#myFields{
+float: right;
+width: 30%;
+min-height: 400px;
+
+}
+
+.hideP {
+visibility: hidden;
+}
+
+#sideNav {
+  flex-basis:17%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-right: 1px solid grey;
+}
+
+#mainPage {
+  flex-basis:83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#mainHeader{
+  flex-basis:11%;
+  border-bottom: 1px solid grey;
+  
+}
+
+#mainGraph{
+  flex-basis:87%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#graphAndTable{
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#graphAndTableShrt{
+  flex-basis: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#graphSec{
+  flex-basis: 60%;
+  /*border:1px solid rgb(55, 0, 255);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#tableSec{
+  flex-basis: 40%;
+  /*border:1px solid rgb(0, 0, 0);*/
+}
+
+#graphSlider{
+  flex-basis:5%;
+  text-align: center;
+}
+
+#graph{
+  flex-basis:90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.graph-dynamic-height {
+flex-basis: 100%;
+width: 70%;
+}
+
+#algButtons{
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#algSelectorDrp{
+  flex-basis: 50%;
+  width:20%;
+}
+
+#algorithm{
+border: 1px solid #e4ecf7;
+border-radius: 5px;
+width: 100%;
+}
+
+#algorithm:focus,
+#algorithm:hover{
+outline: none;
+border: 1px solid rgba(76,111,255,255);
+}
+
+#algorithm option{
+background: white;
+}
+
+.buttonStyle{
+background: #e1e8ff;
+border: 1px solid #e1e8ff;
+color:#4c6fff;
+text-align: center;
+border-radius: 5px;
+width: 100%;
+}
+
+.buttonStyle:hover{
+background: #94acfc;
+}
+body{
+font-family: 'Inter', sans-serif;
+}
+
+#algRunBtn{
+  flex-basis: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.aButton{
+  flex-basis: 50%;
+  width: 100%;
+}
+
+#page {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+#navigation{
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+#navLogo{
+  flex-basis: 30%;
+  margin-bottom: 4em;
+}
+
+#navMenu{
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navItem{
+  flex-basis: 33%;
+  display: flex;
+  align-items: center;
+  
+}
+
+#footer{
+  flex-basis: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footItem{
+  flex-basis: 50%;
+  display: flex;
+  
+}
+
+.footItemIcon{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.footItemTxt{
+  margin-left: 1em;
+}
+
+.slider{
+-webkit-appearance: none;  /* Override default CSS styles */
+appearance: none;
+width: 90%; /* Full-width */
+height: 1em;
+background: #e1e8ff; /* Grey background */
+outline: none; /* Remove outline */
+opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+-webkit-transition: .2s; /* 0.2 seconds transition on hover */
+transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 1em;
+height: 1em;
+background: #4c6fff;
+cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+width: 1em;
+height: 1em;
+background: #4c6fff;
+cursor: pointer;
+}
+
+a:link {
+color: black;
+}
+
+a:visited {
+color: black;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+#table{
+  border-collapse: collapse;
+  margin: 25px 10px;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+#table thead tr{
+  background-color: #e1e8ff;
+  color: #4c6fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+#table th,
+#table td{
+  padding: 12px 15px;
+}
+
+#table tbody tr{
+  border-bottom: 1px solid #e1e8ff;
+}
+
+#table tbody tr:last-of-type{
+  border-bottom: 2px solid #4c6fff;
+}

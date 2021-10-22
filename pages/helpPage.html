@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <script src='../node_modules/cytoscape/dist/cytoscape.min.js'></script>
+    <link rel="stylesheet" href="../css/normalise.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    
+</head>
+
+
+<body>
+    <div id='page' style = "border:1px solid green;">
+        <div id='sideNav'>
+            <div id='navigation'>
+                <div id='navLogo'>
+
+                </div>
+                <div id='navMenu'>
+                    
+                  <div class='navItem'>
+                    <div class='footItemIcon'>
+                        <img src = "../images/truck.svg" class='footerIcon' alt="text message icon"/>
+                    </div>
+                    <div class='footItemTxt'>
+                        <a href="../index.html">Graph Traversal</a>
+                    </div>    
+                 </div>
+
+                 <div class='navItem'>
+                    <div class='footItemIcon'>
+                        <img src = "../images/tree.svg" class='footerIcon' alt="text message icon"/>
+                    </div>
+                    <div class='footItemTxt'>
+                        <a href="spanTree.html">Spanning Tree</a>
+                    </div>    
+                  </div>
+
+                  <div class='navItem'>
+                    <div class='footItemIcon'>
+                      <img src = "../images/path.svg" class='footerIcon' alt="text message icon"/>
+                    </div>
+                    <div class='footItemTxt'>
+                      <a href="shrtPath.html">Shortest Path</a>
+                    </div>    
+                  </div>
+                  
+                </div>
+            </div>
+            <div id='footer'>
+                <div class='footItem'>
+                    <div class='footItemIcon'>
+                        <img src = "../images/text.svg" class='footerIcon' alt="text message icon"/>
+                    </div>
+                    <div class='footItemTxt'>
+                        <a href="helpPage.html">Help</a>
+                    </div>    
+                </div>
+                <div class='footItem'>
+                    <div class='footItemIcon'>
+                        <img src = "../images/code.svg" class='footerIcon' alt="text message icon"/>
+                    </div>
+                    <div class='footItemTxt'>
+                        <a href="https://github.com">Code</a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div id = 'mainPage'>
+            <div id='mainHeader'>
+                <h1>Algorithm Visualiser</h1>
+            </div>
+            <div id='mainGraph'>
+                <p>This is a tool to let users simulate popular alogrithms on a graph. The website automatically generates a random 
+                    connected graph once a user picks the number of nodes using the slider. User can select one of the algortihms from the list to 
+                    see a step by step simualtion. A user can also pick a start node (where applicable) by clicking on one of the graph nodes.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <table id="table">
+      <!-- here goes table data for algortihms that need a table -->
+    </table>
+    <script src='../js/code.js'></script> 
+</body>
+</html>
