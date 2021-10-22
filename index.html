@@ -2,6 +2,9 @@
 <html>
 <head>
 <!--     <script src='node_modules/cytoscape/dist/cytoscape.min.js'></script> -->
+    <script type="module">
+        import cytoscape from "./cytoscape.esm.min.js";
+    </script>
     <link rel="stylesheet" href="css/normalise.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -113,9 +116,6 @@
     <table id="table">
       <!-- here goes table data for algortihms that need a table -->
     </table>
-    <script type="module">
-        import cytoscape from "./cytoscape.esm.min.js";
-    </script>
-    <script src='js/code.js'></script> 
+    <script src='js/code.js' defer></script> 
 </body>
 </html>
