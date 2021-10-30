@@ -187,13 +187,13 @@ font-family: 'Inter', sans-serif;
 }
 
 #footer{
-  flex-basis: 10%;
+  flex-basis: 5%;
   display: flex;
   flex-direction: column;
 }
 
 .footItem{
-  flex-basis: 50%;
+  flex-basis: 100%;
   display: flex;
   
 }
