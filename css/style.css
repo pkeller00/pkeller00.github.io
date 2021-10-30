@@ -5,11 +5,17 @@ p{
 
 h1{
   font-size: 32px;
-  padding: 0px, 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-left: 10px;
 }
 
 h4{
-  padding: 0px, 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-left: 10px;
 }
 #myFields{
 float: right;
