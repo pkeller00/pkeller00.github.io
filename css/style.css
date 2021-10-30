@@ -5,8 +5,12 @@ p{
 
 h1{
   font-size: 32px;
+  padding 0px, 30px;
 }
 
+h4{
+  padding 0px, 30px;
+}
 #myFields{
 float: right;
 width: 30%;
